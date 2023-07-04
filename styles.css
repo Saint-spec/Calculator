@@ -1,23 +1,44 @@
+
 .calculator {
     width: 200px;
     margin: 0 auto;
     text-align: center;
   }
+
+
   
-  input[type="text"] {
+input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
   }
   
-  .buttons {
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+    width: 100%;
+    font-family: 'Play', sans-serif;
   }
   
-  button {
+button {
     width: 100%;
     padding: 20px;
   }
-  
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+.logo {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.5s;
+  }
+
+.logo:hover {
+    transform: rotate(720deg);
+  }
+
